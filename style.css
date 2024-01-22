@@ -3,3 +3,19 @@
     height: 200px;
     object-fit: cover;
 }
+
+.link-logo {
+    font-size: 2rem;
+}
+
+.icon {
+    font-size: 1.3rem;
+}
+
+.link-logo:hover,.icon:hover,.nav-link:hover,.link:hover,.active:hover {
+    color:rgb(183, 183, 183);
+}
+
+.current:hover {
+    color: inherit; 
+}
