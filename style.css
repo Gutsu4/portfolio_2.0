@@ -1,9 +1,20 @@
+/***Home***/
+.header-section {
+    background-image: url('/img/BackGroundImage.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: white;
+}
+
+
 .project-image {
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    object-fit: contain; /* または 'scale-down', 'fill', 'none' */
 }
 
+/*icon logo*/
 .link-logo {
     font-size: 2rem;
 }
@@ -13,9 +24,14 @@
 }
 
 .link-logo:hover,.icon:hover,.nav-link:hover,.link:hover,.active:hover {
-    color:rgb(183, 183, 183);
+    color:rgb(219, 219, 219);
 }
 
 .current:hover {
-    color: inherit; 
+    color: rgb(0, 0, 0);
+}
+
+/***Work***/
+.work-card {
+    margin: 20px;
 }
