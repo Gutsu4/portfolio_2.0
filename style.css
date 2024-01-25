@@ -35,3 +35,24 @@
 .work-card {
     margin: 20px;
 }
+
+
+/*About*/
+.accordion-body {
+    line-height: 3;
+    font-size: 1.2rem;
+}
+
+.accordion-button {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .accordion-body {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+    .accordion-button {
+        font-size: 1.2rem;
+    }
+}
