@@ -68,6 +68,13 @@ const projects = [
         subtitle: "Java & Python & Raspberry Pi",
         description: "Raspberry Piにセンサーを取り付け、cronで定期実行し気温と湿度をDBに記録。そのデータをJSPでウェブ上に表示するシステム",
         images: ["/img/works_img/sensor_robot/1.png", "/img/works_img/sensor_robot/2.png", "/img/works_img/sensor_robot/3.png","/img/works_img/sensor_robot/4.png"]
+    },
+    {
+        id: 11,
+        title: "タスク管理Webアプリケーション",
+        subtitle: "PHP Laravel & Docker",
+        description: "PHP Laravelフレームワークを用いてタスク管理Webアプリケーションを開発。Dockerを用いて開発環境を構築。",
+        images: ["/img/works_img/task_laravel/login.png", "/img/works_img/task_laravel/create.png", "/img/works_img/task_laravel/edit.png","/img/works_img/task_laravel/already_show.png","/img/works_img/task_laravel/show_task.png"]
     }
     
 ];
