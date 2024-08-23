@@ -76,6 +76,14 @@
     object-fit: contain;
 }
 
+@media (max-width: 500px) {
+    .carousel-item img {
+        height: 200px;
+        width: 100%;
+        
+    }
+}
+
 
 .carousel-indicators li:before {
     display: none;
