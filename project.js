@@ -120,8 +120,8 @@ function loadProjectDetails(projectId) {
         // プロジェクトのタイトルと説明を追加
         const projectInfoHtml = `
             <h2>${project.title}</h2>
-            <h5>${project.subtitle}</h5>
-            <p>${project.description}</p>`;
+            <h5 class="mt-2">${project.subtitle}</h5>
+            <p class="mt-2">${project.description}</p>`;
 
         // HTMLをコンテナに挿入
         projectDetailsContainer.innerHTML = `
