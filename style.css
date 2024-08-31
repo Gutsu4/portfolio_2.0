@@ -1,6 +1,6 @@
 /***Home***/
 .header-section {
-    background-image: url('/img/BackGroundImage.png');
+    background-image: url('img/BackGroundImage.png');
     background-size: cover;
     background-position: center;
     padding: 100px 0;
