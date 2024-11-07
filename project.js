@@ -75,6 +75,13 @@ const projects = [
         subtitle: "PHP Laravel & Docker",
         description: "PHP Laravelフレームワークを用いてタスク管理Webアプリケーションを開発。Dockerを用いて開発環境を構築。",
         images: ["img/works_img/task_laravel/login.png", "img/works_img/task_laravel/create.png", "img/works_img/task_laravel/edit.png","img/works_img/task_laravel/already_show.png","img/works_img/task_laravel/show_task.png"]
+    },
+    {
+        id: 12,
+        title: "匿名質問掲示板",
+        subtitle: "PHP Laravel & Tailwind & Docker",
+        description: "PHP Laravelフレームワークを用いて匿名質問掲示板を開発。スタイルはTailwindを使用。Dockerを用いて開発環境を構築。",
+        images: ["img/works_img/board/1-login.png", "img/works_img/board/2-index.png", "img/works_img/board/3-create.png","img/works_img/board/4-search.png","img/works_img/board/5-posts.png","img/works_img/board/6-detail.png"]
     }
     
 ];
