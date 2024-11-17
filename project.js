@@ -1,21 +1,21 @@
 const projects = [
     {
         id: 1,
-        title: "勤怠管理Webアプリケーション",
+        title: "勤怠管理Web App",
         subtitle: "Java & Spring boot",
-        description: "SpringBootフレームワークを用いて勤怠管理Webアプリケーションを開発。6人のチームでチームマネジメントを実施。データベース設計、タスクの割り当てなどを担当",
+        description: "SpringBootフレームワークを用いて勤怠管理Web Appを開発。6人のチームでチームマネジメントを実施。データベース設計、タスクの割り当てなどを担当",
         images: ["img/works_img/kintai/1.png", "img/works_img/kintai/2.png","img/works_img/kintai/3.png","img/works_img/kintai/4.png","img/works_img/kintai/5.png"]
     },
     {
         id: 2,
-        title: "タスク管理Webアプリケーション",
+        title: "タスク管理Web App",
         subtitle: "Java & Spring boot",
-        description: "SpringBootフレームワークを用いてタスク管理Webアプリケーションを開発。ユーザーの登録とタスク一覧表示、タスク削除、タスク編集を実装",
+        description: "SpringBootフレームワークを用いてタスク管理Web Appを開発。ユーザーの登録とタスク一覧表示、タスク削除、タスク編集を実装",
         images: ["img/works_img/taskManage/1.png","img/works_img/taskManage/2.png","img/works_img/taskManage/3.png"]
     },
     {
         id: 3,
-        title: "カレッジ運営Webアプリケーション",
+        title: "カレッジ運営Web App",
         subtitle: "PHP",
         description: "学校内で開催されたハッカソンイベントで25チーム中1位獲得。5人のチームでチームマネジメントを実施。ログイン機能やセッション管理、出席管理などを実装",
         images: ["img/works_img/management/reserve.png", "img/works_img/management/login.png", "img/works_img/management/room.png","img/works_img/management/schedule.png","img/works_img/management/logout.png"]
@@ -71,9 +71,9 @@ const projects = [
     },
     {
         id: 11,
-        title: "タスク管理Webアプリケーション",
+        title: "タスク管理Web App",
         subtitle: "PHP Laravel & Docker",
-        description: "PHP Laravelフレームワークを用いてタスク管理Webアプリケーションを開発。Dockerを用いて開発環境を構築。",
+        description: "PHP Laravelフレームワークを用いてタスク管理Web Appを開発。Dockerを用いて開発環境を構築。",
         images: ["img/works_img/task_laravel/login.png", "img/works_img/task_laravel/create.png", "img/works_img/task_laravel/edit.png","img/works_img/task_laravel/already_show.png","img/works_img/task_laravel/show_task.png"]
     },
     {
@@ -126,9 +126,9 @@ function loadProjectDetails(projectId) {
 
         // プロジェクトのタイトルと説明を追加
         const projectInfoHtml = `
-            <h2>${project.title}</h2>
-            <h5 class="mt-2">${project.subtitle}</h5>
-            <p class="mt-2">${project.description}</p>`;
+            <h2 class="my-4">${project.title}</h2>
+            <h5 class="my-4">${project.subtitle}</h5>
+            <p class="my-4">${project.description}</p>`;
 
         // HTMLをコンテナに挿入
         projectDetailsContainer.innerHTML = `
